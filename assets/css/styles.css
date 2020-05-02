@@ -1,0 +1,131 @@
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+}
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/img/hero-mobile.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(0,0,0);
+}
+
+@media (min-width: 768px) {
+  #hero {
+    background-image: url("../../assets/img/hero.jpg");
+  }
+}
+
+#navcol-1 {
+  font-size: 12px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0,0,0,0.9);
+  font-size: 14px;
+}
+
+#subtitle {
+  font-family: Montserrat, sans-serif;
+  font-size: 50px;
+  color: #333333;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+#shop {
+}
+
+#title {
+  margin: 0px;
+  margin-top: 40px;
+}
+
+.p-top {
+}
+
+.p-bottom {
+}
+
+.reserve-button {
+  /*opacity: 0.61;*/
+  color: #fefefe;
+  border: 3px solid #fff;
+  border-radius: 38px;
+  background-color: rgba(255,255,255,0);
+}
+
+.reserve-bt {
+  background-color: rgba(0,98,204,0);
+  border: 3px solid #ffff;
+  border-radius: 36px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  max-width: 720px;
+  text-align: center;
+}
+
+.col.borderWidth {
+  border: 1px solid rgba(255,255,255,0.37);
+  border-top: 0;
+  border-bottom: 0;
+}
+
+#video-and-stats {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  #video-and-stats iframe {
+    width: 900px;
+    height: 500px;
+  }
+}
+
+#video-and-stats iframe {
+  width: 90%;
+  height: 400px;
+}
+
+#stats .table thead th {
+  text-align: left;
+}
+
+#stats .cell-left {
+  text-align: right;
+}
+
+@media (min-width: 992px) {
+  #stats {
+    margin: 0 auto;
+    width: 600px;
+    margin-bottom: 250px;
+  }
+}
+
+#aero .container, .container-lg, .container-md, .container-sm, .container-xl {
+  font-family: Montserrat, sans-serif;
+  max-width: 900px;
+}
+
+#interior-image {
+  max-width: 50%;
+}
+
+#top {
+  width: 100%;
+  height: 120vh;
+  background-image: url("../../assets/img/top.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
