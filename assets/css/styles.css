@@ -106,7 +106,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 @media (min-width: 992px) {
   #stats {
     margin: 0 auto;
-    width: 600px;
+    max-width: 500px;
     margin-bottom: 250px;
   }
 }
